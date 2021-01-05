@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 370px;
+  margin-top: 15px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .logo {
+    width: 100%;
+  }
+}
